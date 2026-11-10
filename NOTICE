@@ -1,0 +1,30 @@
+Hexa — third-party components
+
+Hexa itself is proprietary (see LICENSE). The app contains the following
+components, each under its own licence:
+
+- Shenava Persian speech models (Koochik, Rizeh, Rizeh-Pizeh) by Reza2kn — CC BY-NC 4.0.
+  Non-commercial use only: Hexa is free and must not be sold while it ships
+  these models. https://github.com/Reza2kn/shenava-1
+- Parakeet TDT-CTC 110M (English) by NVIDIA — CC BY 4.0.
+- Whisper small / large-v3-turbo (optional downloads) by OpenAI — MIT.
+- Silero VAD by Silero Team — MIT.
+- sherpa-onnx by the k2-fsa project — Apache 2.0. Includes ONNX Runtime (MIT).
+- Vazirmatn typeface by Saber Rastikerdar — SIL Open Font License 1.1.
+- Lucide icons — ISC.
+- AndroidX, Jetpack Compose (Google) and Kotlin (JetBrains) — Apache 2.0.
+- The base drawing of the character is adapted from Hex by Anomaly
+  (https://github.com/anomalyco/hex), used under the MIT licence:
+
+  MIT License. Copyright (c) Anomaly.
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions: The above copyright
+  notice and this permission notice shall be included in all copies or
+  substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS",
+  WITHOUT WARRANTY OF ANY KIND.
+
+Hexa is an independent product and is not affiliated with any of the above.
