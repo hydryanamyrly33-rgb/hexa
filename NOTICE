@@ -13,6 +13,31 @@ components, each under its own licence:
 - Vazirmatn typeface by Saber Rastikerdar — SIL Open Font License 1.1.
 - Lucide icons — ISC.
 - AndroidX, Jetpack Compose (Google) and Kotlin (JetBrains) — Apache 2.0.
+- Voice lines and sound effects of the show (blast shout, windup roar, torrent gibberish,
+  dizzy line, tommy-gun burst, casings, charge, aura, power-up, glass shatter, thump, inhale, pop)
+  are taken from Hex by Anomaly (https://github.com/anomalyco/hex), used under the MIT licence
+  (the same licence text as below).
+- The little mood noises of the character (purr, giggle, growl, mrrp, kiss, sneeze, yawn, chime,
+  the hurt meow for sadness, whistle and the child's laugh) are real recordings from the Mixkit
+  free sound library (https://mixkit.co/), used under the Mixkit free licence
+  (https://mixkit.co/license/), which allows free use, including commercial use, without attribution.
+  They voice the faces gallery and accent moments elsewhere; the home character, the doll in
+  settings and the floating head are silent by design, and nothing is played on silent/vibrate/Do-Not-Disturb.
+  Mood cues of the scripted show bypass quiet-mode on the owner's order. The exact clips and their source pages:
+    purr.mp3      — "Sphinx cat purr"                  (https://mixkit.co/free-sound-effects/cats/)          sfx id 3091
+    mrrp.mp3      — "Sweet kitty meow"                (https://mixkit.co/free-sound-effects/cats/)          sfx id 93
+    growl.mp3     — "Angry wild cat roar"             (https://mixkit.co/free-sound-effects/cats/)          sfx id 89
+    sad.mp3       — "Little cat pain meow"            (https://mixkit.co/free-sound-effects/cats/)          sfx id 87
+    giggle.mp3    — "Kid giggle laugh"                (https://mixkit.co/free-sound-effects/giggle/)        sfx id 431
+    laugh.mp3     — "Happy child laughing"            (https://mixkit.co/free-sound-effects/laugh/)         sfx id 2265
+    kiss.mp3      — "Little cute kiss"                (https://mixkit.co/free-sound-effects/kisses/)        sfx id 2192
+    sneeze.mp3    — "Adult sneeze"                    (https://mixkit.co/free-sound-effects/sneeze/)        sfx id 2212
+    yawn.mp3      — "Young tired male yawns"          (https://mixkit.co/free-sound-effects/yawn/)          sfx id 2278
+    whistle.mp3   — "Male gentle whistle"             (https://mixkit.co/free-sound-effects/whistle/)       sfx id 612
+    chime.mp3     — "Relaxing bell chime"             (https://mixkit.co/free-sound-effects/bell/)          sfx id 3109
+  All of them were loudness-normalised to about −21 LUFS, converted to mono, and are stored
+  in app/src/main/res/raw/. The script that re-downloads and re-normalises them is
+  tools/fetch_sounds.sh.
 - The base drawing of the character is adapted from Hex by Anomaly
   (https://github.com/anomalyco/hex), used under the MIT licence:
 
